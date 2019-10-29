@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhombusOfStars", "RhombusOfStars\RhombusOfStars.csproj", "{3CB3C219-132B-41A9-9DA3-04F4256F4843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CB3C219-132B-41A9-9DA3-04F4256F4843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB3C219-132B-41A9-9DA3-04F4256F4843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB3C219-132B-41A9-9DA3-04F4256F4843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB3C219-132B-41A9-9DA3-04F4256F4843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71FC4A2A-52A5-418C-B5C3-7FBE23633921}
+	EndGlobalSection
+EndGlobal
