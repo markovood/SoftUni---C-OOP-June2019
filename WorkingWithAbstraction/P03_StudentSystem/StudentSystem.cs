@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P03_StudentSystem
+﻿namespace P03_StudentSystem
 {
+    using System;
+    using System.Collections.Generic;
+
     public class StudentSystem
     {
         private readonly Dictionary<string, Student> repo;

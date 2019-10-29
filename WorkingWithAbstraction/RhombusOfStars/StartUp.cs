@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace RhombusOfStars
+﻿namespace RhombusOfStars
 {
+    using System;
+
     public class StartUp
     {
         public static void Main()

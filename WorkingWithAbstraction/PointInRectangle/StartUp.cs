@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace PointInRectangle
+﻿namespace PointInRectangle
 {
+    using System;
+    using System.Linq;
+
     public class StartUp
     {
         public static void Main()
