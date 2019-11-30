@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RowData
+namespace P01_RawData
 {
     public class Car
     {
-        public Car(string model, Engine engine, Cargo cargo, Tire[] tiresSet)
+        public Car(string model, Engine engine, Cargo cargo, KeyValuePair<double, int>[] tiresSet)
         {
             this.Model = model;
             this.Engine = engine;
@@ -15,16 +15,8 @@ namespace RowData
         }
 
         public string Model { get; }
-
         public Engine Engine { get; }
-
         public Cargo Cargo { get; }
-
-        public Tire[] TiresSet { get; }
-
-        public override string ToString()
-        {
-            return this.Model;
-        }
+        public KeyValuePair<double, int>[] TiresSet { get; }
     }
 }
