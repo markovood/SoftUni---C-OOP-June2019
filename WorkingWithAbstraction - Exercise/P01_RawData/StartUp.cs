@@ -43,24 +43,21 @@ namespace P01_RawData
             }
 
             string command = Console.ReadLine();
+            List<Car> filtered = new List<Car>();
             if (command == "fragile")
             {
-                List<string> fragile = cars
+                filtered = cars
                     .Where(c => c.Cargo.Type == "fragile" && c.TiresSet.Any(t => t.Key < 1))
-                    .Select(c => c.Model)
                     .ToList();
-
-                Console.WriteLine(string.Join(Environment.NewLine, fragile));
             }
             else
             {
-                List<string> flamable = cars
+                filtered = cars
                     .Where(c => c.Cargo.Type == "flamable" && c.Engine.Power > 250)
-                    .Select(c => c.Model)
                     .ToList();
-
-                Console.WriteLine(string.Join(Environment.NewLine, flamable));
             }
+
+            filtered.ForEach(Console.WriteLine);
         }
     }
 }

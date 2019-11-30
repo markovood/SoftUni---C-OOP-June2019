@@ -18,5 +18,10 @@ namespace P01_RawData
         public Engine Engine { get; }
         public Cargo Cargo { get; }
         public KeyValuePair<double, int>[] TiresSet { get; }
+
+        public override string ToString()
+        {
+            return this.Model;
+        }
     }
 }
