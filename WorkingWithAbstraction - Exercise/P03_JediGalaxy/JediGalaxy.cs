@@ -17,6 +17,12 @@ namespace P03_JediGalaxy
 
             int[,] matrix = InitializeMatrix(x, y);
 
+            long sum = SumStars(matrix);
+            Console.WriteLine(sum);
+        }
+
+        private static long SumStars(int[,] matrix)
+        {
             long sumStars = 0;
             while (true)
             {
@@ -59,7 +65,7 @@ namespace P03_JediGalaxy
                 }
             }
 
-            Console.WriteLine(sumStars);
+            return sumStars;
         }
 
         private static int[] ParseCoords(string value)
