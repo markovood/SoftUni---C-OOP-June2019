@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04_Hospital", "P04_Hospita
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05_GreedyTimes", "P05_GreedyTimes\P05_GreedyTimes.csproj", "{DE032B06-6036-45FB-8FA0-71BC50C29C6B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06_Sneaking", "P06_Sneaking\P06_Sneaking.csproj", "{E95837A3-AC6F-40F5-A47A-C08B0B8F872E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DE032B06-6036-45FB-8FA0-71BC50C29C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE032B06-6036-45FB-8FA0-71BC50C29C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE032B06-6036-45FB-8FA0-71BC50C29C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95837A3-AC6F-40F5-A47A-C08B0B8F872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95837A3-AC6F-40F5-A47A-C08B0B8F872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95837A3-AC6F-40F5-A47A-C08B0B8F872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95837A3-AC6F-40F5-A47A-C08B0B8F872E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
