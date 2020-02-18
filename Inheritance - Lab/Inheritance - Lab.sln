@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInheritance", "SingleInheritance\SingleInheritance.csproj", "{0840EBC0-75EC-46EF-9DA4-61C2B08EABE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleInheritance", "SingleInheritance\SingleInheritance.csproj", "{0840EBC0-75EC-46EF-9DA4-61C2B08EABE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReusingClasses", "ReusingClasses\ReusingClasses.csproj", "{53C5D882-7705-46BE-BF7A-16B3ADA116D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReusingClasses - part 2", "ReusingClasses - part 2\ReusingClasses - part 2.csproj", "{45348FA2-9B41-451D-8DA9-246C68047B06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0840EBC0-75EC-46EF-9DA4-61C2B08EABE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0840EBC0-75EC-46EF-9DA4-61C2B08EABE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0840EBC0-75EC-46EF-9DA4-61C2B08EABE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C5D882-7705-46BE-BF7A-16B3ADA116D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C5D882-7705-46BE-BF7A-16B3ADA116D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C5D882-7705-46BE-BF7A-16B3ADA116D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C5D882-7705-46BE-BF7A-16B3ADA116D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45348FA2-9B41-451D-8DA9-246C68047B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45348FA2-9B41-451D-8DA9-246C68047B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45348FA2-9B41-451D-8DA9-246C68047B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45348FA2-9B41-451D-8DA9-246C68047B06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
