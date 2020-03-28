@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersonInfo
+﻿namespace PersonInfo
 {
-    internal class Citizen : IPerson
+    public class Citizen : IPerson
     {
         public Citizen(string name, int age)
         {

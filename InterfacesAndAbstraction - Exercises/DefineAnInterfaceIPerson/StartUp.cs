@@ -4,7 +4,7 @@ namespace PersonInfo
 {
     public class StartUp
     {
-        public static void Main()
+        private static void Main()
         {
             string name = Console.ReadLine();
             int age = int.Parse(Console.ReadLine());
