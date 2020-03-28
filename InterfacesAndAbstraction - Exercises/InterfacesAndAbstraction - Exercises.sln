@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefineAnInterfaceIPerson", "DefineAnInterfaceIPerson\DefineAnInterfaceIPerson.csproj", "{13CC2F88-6990-4CE5-B9F4-76E36F2C10C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleImplementation", "MultipleImplementation\MultipleImplementation.csproj", "{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleImplementation", "MultipleImplementation\MultipleImplementation.csproj", "{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferrari", "Ferrari\Ferrari.csproj", "{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
