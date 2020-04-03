@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefineAnInterfaceIPerson", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleImplementation", "MultipleImplementation\MultipleImplementation.csproj", "{CB4092C0-8EAB-4576-9C43-A7AC0CA257B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferrari", "Ferrari\Ferrari.csproj", "{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ferrari", "Ferrari\Ferrari.csproj", "{109EFCBA-F0D8-46BC-88BF-A44A804CA6E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{C12DF361-D0BC-430D-A972-034DE87C3108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telephony", "Telephony\Telephony.csproj", "{C12DF361-D0BC-430D-A972-034DE87C3108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{BEB01C11-44F9-45DB-9592-9E05CD601FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControl", "BorderControl\BorderControl.csproj", "{BEB01C11-44F9-45DB-9592-9E05CD601FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCelebrations", "BirthdayCelebrations\BirthdayCelebrations.csproj", "{492E1ABC-CF91-4652-8811-0BDDCB79AB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCelebrations", "BirthdayCelebrations\BirthdayCelebrations.csproj", "{492E1ABC-CF91-4652-8811-0BDDCB79AB33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodShortage", "FoodShortage\FoodShortage.csproj", "{EC6021A0-F452-4EEE-8149-A096A3EC8D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShortage", "FoodShortage\FoodShortage.csproj", "{EC6021A0-F452-4EEE-8149-A096A3EC8D00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryElite", "MilitaryElite\MilitaryElite.csproj", "{0B358E3C-B5EB-49F6-A7B1-B4A715078941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilitaryElite", "MilitaryElite\MilitaryElite.csproj", "{0B358E3C-B5EB-49F6-A7B1-B4A715078941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionHierarchy", "CollectionHierarchy\CollectionHierarchy.csproj", "{59D38594-6FD8-484F-8C62-DC812684D54E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{0B358E3C-B5EB-49F6-A7B1-B4A715078941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B358E3C-B5EB-49F6-A7B1-B4A715078941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B358E3C-B5EB-49F6-A7B1-B4A715078941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D38594-6FD8-484F-8C62-DC812684D54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D38594-6FD8-484F-8C62-DC812684D54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D38594-6FD8-484F-8C62-DC812684D54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D38594-6FD8-484F-8C62-DC812684D54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
