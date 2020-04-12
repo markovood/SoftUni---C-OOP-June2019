@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using P01.Stream_Progress.Contracts;
 
 namespace P01.Stream_Progress
 {
-    public class Music
+    public class Music : IStreamProgress
     {
         private string artist;
         private string album;

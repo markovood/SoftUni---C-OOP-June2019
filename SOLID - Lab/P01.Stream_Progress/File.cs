@@ -1,6 +1,8 @@
-﻿namespace P01.Stream_Progress
+﻿using P01.Stream_Progress.Contracts;
+
+namespace P01.Stream_Progress
 {
-    public class File
+    public class File : IStreamProgress
     {
         private string name;
 

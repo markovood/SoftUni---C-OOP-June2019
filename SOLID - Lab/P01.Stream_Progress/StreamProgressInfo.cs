@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using P01.Stream_Progress.Contracts;
 
 namespace P01.Stream_Progress
 {
     public class StreamProgressInfo
     {
-        private File file;
+        private IStreamProgress file;
 
-        // If we want to stream a music file, we can't
-        public StreamProgressInfo(File file)
+        public StreamProgressInfo(IStreamProgress file)
         {
             this.file = file;
         }
