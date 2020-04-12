@@ -1,16 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace P03.DetailPrinter
 {
-    public class Manager : Employee
+    public class Manager : IEmployee
     {
-        public Manager(string name, ICollection<string> documents) : base(name)
+        public Manager(string name, ICollection<string> documents)
         {
+            this.Name = name;
             this.Documents = new List<string>(documents);
         }
 
         public IReadOnlyCollection<string> Documents { get; set; }
+
+        public string Name { get; }
+
+        public string Details()
+        {
+            return this.Name +
+                Environment.NewLine + "  " +
+                string.Join(Environment.NewLine + "  ", this.Documents);
+        }
     }
 }
