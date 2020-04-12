@@ -2,10 +2,18 @@
 
 namespace P02.Graphic_Editor
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
+            var square = new Square();
+            var circle = new Circle();
+            var rectangle = new Rectangle();
+
+            var ge = new GraphicEditor();
+            ge.DrawShape(square);
+            ge.DrawShape(circle);
+            ge.DrawShape(rectangle);
         }
     }
 }
