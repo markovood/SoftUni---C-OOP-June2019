@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixing", "Fixing\Fixing.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixingVol2", "FixingVol2\FixingVol2.csproj", "{98E6501D-BD77-4FD4-9F84-407FE6D32BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.ToDouble", "Convert.ToDouble\Convert.ToDouble.csproj", "{4976A744-9AC4-425F-8855-D9391041C386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{98E6501D-BD77-4FD4-9F84-407FE6D32BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E6501D-BD77-4FD4-9F84-407FE6D32BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E6501D-BD77-4FD4-9F84-407FE6D32BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4976A744-9AC4-425F-8855-D9391041C386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4976A744-9AC4-425F-8855-D9391041C386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4976A744-9AC4-425F-8855-D9391041C386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4976A744-9AC4-425F-8855-D9391041C386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
