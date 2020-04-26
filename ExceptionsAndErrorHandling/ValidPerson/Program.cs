@@ -59,6 +59,15 @@ namespace ValidPerson
             {
                 Console.WriteLine($"Exception thrown: {ex.Message}");
             }
+
+            try
+            {
+                Student student = new Student("Gin4o", string.Empty);
+            }
+            catch (InvalidPersonNameException ex)
+            {
+                Console.WriteLine($"Exception thrown: {ex.Message}");
+            }
         }
     }
 }
