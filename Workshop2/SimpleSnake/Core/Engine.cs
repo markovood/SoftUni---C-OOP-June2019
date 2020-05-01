@@ -121,8 +121,12 @@ namespace SimpleSnake.Core
 
         private void StopGame()
         {
-            Console.SetCursorPosition(61, 5);
-            Console.Write("Game over!");
+            const string END_GAME_MSG = "Game over!";
+
+            Console.SetCursorPosition((this.wall.LeftX - END_GAME_MSG.Length) / 2, this.wall.TopY / 2);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write(END_GAME_MSG);
+            Console.ReadKey();
             Environment.Exit(0);
         }
     }
