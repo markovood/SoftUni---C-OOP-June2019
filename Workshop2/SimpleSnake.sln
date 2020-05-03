@@ -7,29 +7,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSnake", "SimpleSnake\
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
-		Debug|Default = Debug|Default
 		Release|Any CPU = Release|Any CPU
-		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E254FC-298E-442F-A859-E098E05140EE}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E254FC-298E-442F-A859-E098E05140EE}.All|Any CPU.Build.0 = Release|Any CPU
 		{F7E254FC-298E-442F-A859-E098E05140EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F7E254FC-298E-442F-A859-E098E05140EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7E254FC-298E-442F-A859-E098E05140EE}.Debug|Default.ActiveCfg = Debug|Any CPU
-		{F7E254FC-298E-442F-A859-E098E05140EE}.Debug|Default.Build.0 = Debug|Any CPU
 		{F7E254FC-298E-442F-A859-E098E05140EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E254FC-298E-442F-A859-E098E05140EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7E254FC-298E-442F-A859-E098E05140EE}.Release|Default.ActiveCfg = Release|Any CPU
-		{F7E254FC-298E-442F-A859-E098E05140EE}.Release|Default.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDDD73E0-DDFE-4BB2-AFE6-638BE89BB1D3}
-	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
