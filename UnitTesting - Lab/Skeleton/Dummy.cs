@@ -1,6 +1,8 @@
 ﻿using System;
 
-public class Dummy
+using Skeleton.Contracts;
+
+public class Dummy : ITarget
 {
     private int health;
     private int experience;
@@ -11,7 +13,7 @@ public class Dummy
         this.experience = experience;
     }
 
-    public int Health 
+    public int Health
     {
         get { return this.health; }
     }
