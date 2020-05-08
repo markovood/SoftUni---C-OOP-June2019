@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Tests
+namespace AxeTests
 {
     [TestFixture]
     public class AxeTests
@@ -41,7 +41,7 @@ namespace Tests
             this.axe = new Axe(ATTACK_ENABLED, DURABILITY_DISABLED);
 
             // Assert.Throws<InvalidOperationException>(() => this.axe.Attack(this.target));
-            Assert.That(() => this.axe.Attack(this.target), 
+            Assert.That(() => this.axe.Attack(this.target),
                 Throws.
                 InvalidOperationException.
                 With.

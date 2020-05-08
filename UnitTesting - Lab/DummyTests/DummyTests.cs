@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Tests
+namespace DummyTests
 {
     [TestFixture]
     public class DummyTests
