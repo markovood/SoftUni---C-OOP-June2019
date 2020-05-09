@@ -91,7 +91,6 @@ namespace Tests
             var expectedElements = new int[] { 1, 2, 3 };
             var database = new Database.Database(expectedElements);
 
-            Assert.IsNotNull(database);
             Assert.AreEqual(expectedElements.Length, database.Count);
         }
     }
